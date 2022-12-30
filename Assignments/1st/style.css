@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    color: #308D46;
+    background-color:#212121;
+    font-family: 'Bungee Spice', cursive;
+}
+body{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+  h1{
+    font-size: 1.5cm;
+  }
+  h2{
+    font-size: 0.7cm;
+  }
+  .sz{
+    font-size: 0.7cm;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+.h{
+    margin: 25px;
+}
