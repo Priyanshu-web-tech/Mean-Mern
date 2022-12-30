@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    scroll-behavior: smooth;
+}
+
+.nav_logo {
+    margin-left: 1cm;
+    width: 150px;
+    object-fit: contain;
+}
+
+.nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+
+.nav_black {
+    background-color: #111;
+}
+
+.sec {
+    display: inline-block;
+    margin-left: 50px;
+    padding: 0.4rem;
+}
+
+.ro {
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+    border-width: 2px;
+}
+
+.ri {
+    margin-right: 25px;
+    background-color: red;
+    color: white;
+    width: 2.2cm;
+    height: 1cm;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.7), rgba(12, 12, 12, 0.7)), url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+.ac {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 22%;
+    height: 55px;
+}
+
+.mail {
+    width: 13cm;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    width: 6cm;
+    font-size: 25px;
+}
+
+.contents {
+    position: relative;
+    top: 4cm;
+    font-weight: 0;
+}
+
+.contents pre {
+    font-size: 50px;
+}
+
+.contents h2 {
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.contents p,
+.faq p {
+    font-size: 21px;
+    margin-top: 2rem;
+}
+
+.cr {
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin-top: 0.5rem;
+}
+
+.r1 {
+    width: 505px;
+    max-height: 379px;
+}
+
+.hp {
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.hp h1,.faq h1 {
+    font-size: 50px;
+}
+
+.hp p {
+    font-size: 29px;
+    margin-top: 1rem;
+}
+
+/* faq */
+.faq {
+    margin-top: 0.5rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.faq h1{
+   padding:3rem;
+}
+.q1 {
+    position: absolute;
+    display: inline-block;
+}
+
+.btn2 {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 65%;
+    height: 2cm;
+    text-align: left;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.btn2:hover,.btn2:focus {
+    background-color: #333;
+}
+
+.ans {
+    display: none;
+    position: relative;
+    background-color: #333;
+   width: 65%;
+    overflow: auto;
+}
+.ans p {
+    color: white;
+    margin-top: 0;
+  }
+.tp{
+    margin-bottom: 4rem;
+}
+.u {
+    list-style: none;
+}
+.l1{
+    margin-top: 0.5rem;
+}
+.show .ans{
+    display: inline-block;
+}
+
+/* footer */
+.container{
+    
+	width: 65%;
+	margin:auto;
+    margin-top: 4rem;
+}
+.hp{
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer{
+   
+    font-weight: 500;
+    margin-top:0.5rem;
+    background-color: black;
+    color: #737373;
+    display: grid;
+    box-sizing: border-box;
+}
+footer .row{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+footer ul li{
+    list-style: none;
+    padding: 0.5rem;
+}
+footer a{
+    text-decoration: none;
+    color: #737373
+}
