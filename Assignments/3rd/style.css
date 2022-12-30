@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.4rem;
+}
+ul {
+  list-style: none;
+}
+
+header {
+  top: 0;
+  background: #535353;
+  color: white;
+}
+nav {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+nav ul li {
+  color: white;
+  font-size: 1.8rem;
+}
+nav ul li:hover {
+  border-bottom: white 2px solid;
+}
+nav i {
+  font-size: 2.5rem;
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 2cm;
+  margin-top: 0.1cm;
+}
+.below-center {
+  position: absolute;
+  bottom: 10%;
+  left: 40%;
+}
+/* v-cards */
+.v-card {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 320px;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 2rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.v-card:hover{
+  transform: scale(1.1);
+}
+.card_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+.card_wrapper {
+ padding: 4rem;
+}
+.v-card img {
+  width: 100%;
+}
+.read-btn{
+  all: unset;
+  font-weight: 600;
+  border-bottom:1px solid #535353;
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 1cm;
+}
+
+footer ul {
+  display: flex;
+  gap: 2rem;
+}
+footer ul li {
+  font-size: 1.8rem;
+}
+
+/* Post page */
+.banner_image img {
+  width: 100%;
+  height: 13cm;
+}
+.post h1 {
+  font-size: 3rem;
+}
+.post hr {
+  margin: 3rem 0;
+}
+.about-author {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 800px) {
+  .card_container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  nav{
+    display: inline-block;
+    position: absolute;
+  }
+}
